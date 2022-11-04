@@ -1,0 +1,266 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F9FC;
+}
+
+/*=========================================*/
+/*==========Start Body Section==========*/
+/*=========================================*/
+.main-left-area {
+    background: url(../images/login-bg.png)no-repeat scroll 0 0 / 100% 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.loging-left-bg {}
+
+.loging-left-bg .login-left-img {
+    width: 100%;
+    height: auto;
+}
+
+.main-right-area {
+    margin-left: 50%;
+}
+.responsive-body-img{
+    display: none;
+}
+.responsive-body-img .resposive-img{}
+.main-logo-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0px 100px;
+}
+
+.logo {}
+
+.logo .logo-link {}
+
+.logo .logo-link .logo-img {
+    width: 100%;
+}
+
+.register-button-area {}
+
+.register-button-area .register-button {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #172439;
+    line-height: 26px;
+}
+
+.main-form-area {
+    padding: 0px 50px;
+}
+
+.form-heading {
+    padding-top: 20px;
+}
+
+.form-heading .form-heading-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: ##0B192F;
+    line-height: 35px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group .form-input {
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: ##0B192F;
+    line-height: 30px;
+    background-color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-group .form-input::placeholder {
+    color: #666E76;
+    opacity: 1;
+}
+
+.form-group .form-input:-ms-input-placeholder {
+    color: #666E76;
+}
+
+.form-group .form-input::-ms-input-placeholder {
+    color: #666E76;
+}
+
+.hide-icon-possition {
+    position: relative;
+}
+
+.hide-icon-area {
+    position: absolute;
+    top: 30%;
+    right: 0%;
+}
+
+.hide-icon-area .hide-icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.checkbox-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 70%;
+}
+
+.checkbox-area .checkbox {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.checkbox-area .checkbox-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0B192F;
+    line-height: 21px;
+}
+
+.forget-password {}
+
+.forget-password .forget-password-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5A5CA8;
+    line-height: 21px;
+}
+
+.flexBoxFour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 70px;
+}
+
+.submit-button-area {
+    flex-basis: 30%;
+}
+
+.submit-button-area .submit-button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 28px;
+    background-image: linear-gradient(to right, #7075CC, #6A6EC2, #666ABB, #6468B8, #6165B4, #5E61AF, #5C5EAB, #595CA7, #5758A2, #54559E, #505198, #4B4B90, #474789, #464587, #424182, #3F3D7C, #3E3D7B);
+    padding: 15px 15px;
+    width: 100%;
+    border-radius: 35px;
+}
+
+.form-group {}
+
+.form-group .already-account {
+    font-size: 16px;
+    font-weight: 500;
+    color: #172439;
+    line-height: 30px;
+}
+
+.form-group .already-account .login-text-link {
+    color: #5A5CA8;
+    text-transform: uppercase;
+}
+
+.main-social-media-area {
+    text-align: center;
+    border-top: 1px solid #888E9B;
+}
+
+.heading {
+    padding: 30px 0px;
+}
+
+.heading .heading-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #888E9B;
+    line-height: 30px;
+}
+
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-list .socila-media-link {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.responsive-text-area {
+    display: none;
+    margin-top: 450px;
+    text-align: center;
+}
+
+.responsive-text-area .responsive-text {
+    font-size: 20px;
+    font-weight: 800;
+    color: #172439;
+    line-height: 30px;
+}
+
+.pc {}
+
+.responsive {
+    display: none;
+}
+
+/*=========================================*/
+/*==========End Body Section==========*/
+/*=========================================*/

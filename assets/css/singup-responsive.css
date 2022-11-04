@@ -1,0 +1,537 @@
+@media only screen and (max-width: 1991px) and (min-width: 1400px) {
+    .heading-text-area {
+        padding-top: 70px;
+        padding-left: 110px;
+    }
+
+    .heading-text-area .heading-text {
+        font-size: 40px;
+        font-weight: 800;
+        color: #000000;
+        line-height: 60px;
+    }
+
+    .register-button-area .register-button {
+        display: inline-block;
+        font-size: 26px;
+        font-weight: 500;
+        color: #172439;
+        line-height: 26px;
+    }
+
+    .form-heading .form-heading-text {
+        font-size: 24px;
+        font-weight: 500;
+        color: ##0B192F;
+        line-height: 35px;
+    }
+
+    .form-group .form-input {
+        border: none;
+        background: none;
+        font-size: 20px;
+        font-weight: 400;
+        color: ##0B192F;
+        line-height: 30px;
+        background-color: #fff;
+        padding: 20px 15px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .hide-icon-possition {
+        position: relative;
+    }
+
+    .hide-icon-area {
+        position: absolute;
+        top: 40%;
+        right: 0%;
+    }
+
+    .flexBoxFour {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .submit-button-area .submit-button {
+        border: none;
+        background: none;
+        font-size: 22px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 28px;
+        background-image: linear-gradient(to right, #7075CC, #6A6EC2, #666ABB, #6468B8, #6165B4, #5E61AF, #5C5EAB, #595CA7, #5758A2, #54559E, #505198, #4B4B90, #474789, #464587, #424182, #3F3D7C, #3E3D7B);
+        padding: 20px 15px;
+        width: 100%;
+        border-radius: 35px;
+    }
+
+    .form-group {}
+
+    .form-group .already-account {
+        font-size: 20px;
+        font-weight: 500;
+        color: #172439;
+        line-height: 30px;
+    }
+
+    .forget-password .forget-password-text {
+        font-size: 20px;
+        font-weight: 500;
+        color: #5A5CA8;
+        line-height: 230px;
+    }
+
+    .heading .heading-text {
+        font-size: 20px;
+        font-weight: 500;
+        color: #888E9B;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .main-form-area {
+        padding: 0px 0px;
+    }
+
+    .checkbox-area .checkbox-text {
+        font-size: 13px;
+        font-weight: 400;
+        color: ##0B192F;
+        line-height: 21px;
+    }
+
+    .checkbox-area .checkbox {
+        height: 20px;
+        width: 20px;
+        margin-right: 3px;
+    }
+
+    .submit-button-area .submit-button {
+        font-size: 16px;
+        padding: 10px 6px;
+    }
+
+    .heading-text-area .heading-text {
+        font-size: 25px;
+        font-weight: 800;
+        color: #000000;
+        line-height: 40px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .main-left-area {
+        display: none;
+    }
+
+    .main-right-area {
+        background: #E8E8F2;
+        height: 140vh;
+    }
+
+    .responsive-body-img {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 577px;
+        width: 564px;
+    }
+
+    .main-form-area {
+        padding: 0px 50px;
+        background: #fff;
+        border-radius: 30px;
+        margin: 0px 3%;
+        position: absolute;
+        top: 102%;
+        left: 0%;
+        width: 94%;
+        box-shadow: 0px 0px 10px 0px #acacac;
+    }
+
+    .responsive-text-area {
+        display: block;
+        margin-top: 330px;
+    }
+
+    .form-group .form-input {
+        background-color: #E8E8F2;
+        border: 1px solid #A1A1A4;
+    }
+
+    .main-right-area {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width:767px) {
+    .main-form-area {
+        padding: 0px 15px;
+        margin: 0px 3%;
+        top: 600px;
+    }
+
+    .responsive-text-area {
+        display: block;
+        margin-top: 150px;
+    }
+
+    .form-group .form-input {
+        font-size: 14px;
+        line-height: 30px;
+        padding: 7px 15px;
+    }
+
+    .form-heading .form-heading-text {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .checkbox-area .checkbox-text {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .form-group .already-account {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .submit-button-area .submit-button {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 8px 10px;
+        width: 100%;
+    }
+
+    .checkbox-area .checkbox {
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .register-button-area .register-button {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .main-form-area {
+        left: 0%;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 477px;
+        width: 464px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .flexBoxFour {
+        display: flex;
+        justify-content: flex-start;
+        align-items: unset;
+        padding: 10px 0px;
+        flex-direction: column;
+    }
+
+    .checkbox-area {
+        flex-basis: 100%;
+    }
+
+    .submit-button-area {
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 377px;
+        width: 364px;
+    }
+
+    .main-form-area {
+        top: 480px;
+    }
+
+    .responsive-text-area {
+        display: block;
+        margin-top: 100px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .responsive-text-area .responsive-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 330px;
+        width: 320px;
+    }
+
+    .main-form-area {
+        top: 420px;
+    }
+
+    .responsive-text-area {
+        display: block;
+        margin-top: 136px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .flexBoxOne {
+        display: flex;
+        justify-content: space-between;
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    .form-group {
+        margin-bottom: 0px;
+    }
+
+    .form-group .form-input {
+        margin-bottom: 15px;
+    }
+
+    .flexBoxOne .custom-width-one {
+        width: 100% !important;
+    }
+
+    .flexBoxOne .custom-width-two {
+        width: 100% !important;
+    }
+
+    .flexBoxTwo .custom-width-three {
+        width: 75% !important;
+    }
+
+    .flexBoxTwo .custom-width-four {
+        width: 20% !important;
+    }
+
+    .flexBoxThree .custom-width-five {
+        width: 100% !important;
+    }
+
+    .hide-icon-area {
+        position: absolute;
+        top: 15%;
+        right: 0%;
+    }
+
+    .disNone {
+        display: none;
+    }
+
+    .checkbox-area .checkbox {
+        height: 40px;
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 300px;
+        width: 285px;
+    }
+
+    .main-form-area {
+        top: 385px;
+    }
+}
+
+@media all and (max-width:370px) {
+    .form-group .already-account {
+        font-size: 12px;
+        line-height: 30px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .responsive-body-img .resposive-img {
+        height: 250px;
+        width: 240px;
+    }
+
+    .main-form-area {
+        top: 330px;
+    }
+
+    .responsive-text-area {
+        display: block;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-height: 350px) and (min-height: 300px) {
+    .responsive-text-area {
+        margin-top: 800px;
+    }
+}
+
+@media only screen and (max-height: 400px) and (min-height: 351px) {
+    .responsive-text-area {
+        margin-top: 780px;
+    }
+}
+
+@media only screen and (max-height: 450px) and (min-height: 401px) {
+    .responsive-text-area {
+        margin-top: 725px;
+    }
+}
+
+@media only screen and (max-height: 500px) and (min-height: 451px) {
+    .responsive-text-area {
+        margin-top: 650px;
+    }
+}
+
+@media only screen and (max-height: 550px) and (min-height: 501px) {
+    .responsive-text-area {
+        margin-top: 570px;
+    }
+}
+
+@media only screen and (max-height: 600px) and (min-height: 551px) {
+    .responsive-text-area {
+        margin-top: 500px;
+    }
+}
+
+@media only screen and (max-height: 650px) and (min-height: 601px) {
+    .responsive-text-area {
+        margin-top: 430px;
+    }
+}
+
+@media only screen and (max-height: 700px) and (min-height: 651px) {
+    .responsive-text-area {
+        margin-top: 360px;
+    }
+}
+
+@media only screen and (max-height: 750px) and (min-height: 701px) {
+    .responsive-text-area {
+        margin-top: 290px;
+    }
+}
+
+@media only screen and (max-height: 800px) and (min-height: 751px) {
+    .responsive-text-area {
+        margin-top: 220px;
+    }
+}
+
+@media only screen and (max-height: 850px) and (min-height: 801px) {
+    .responsive-text-area {
+        margin-top: 170px;
+    }
+}
+
+@media only screen and (max-height: 900px) and (min-height: 851px) {
+    .main-right-area {
+        height: 117vh;
+    }
+
+    .responsive-text-area {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-height: 950px) and (min-height: 901px) {
+    .main-right-area {
+        height: 132vh;
+    }
+
+    .responsive-text-area {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-height: 1000px) and (min-height: 951px) {
+    .main-right-area {
+        height: 120vh;
+    }
+
+    .responsive-text-area {
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (max-height: 1050px) and (min-height: 1001px) {
+    .main-right-area {
+        height: 112vh;
+    }
+
+    .responsive-text-area {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-height: 1100px) and (min-height: 1051px) {
+    .main-right-area {
+        height: 112vh;
+    }
+
+    .responsive-text-area {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-height: 1080px) and (min-height: 1080px) {
+    .main-right-area {
+        height: 109vh;
+    }
+
+    .responsive-text-area {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-height: 1150px) and (min-height: 1101px) {
+    .main-right-area {
+        height: 108vh;
+    }
+
+    .responsive-text-area {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 810px) and (min-width: 810px) {
+    .main-form-area {
+        top: 64%;
+    }
+
+    .responsive-text-area {
+        margin-top: 270px;
+    }
+}
+
+@media only screen and (max-height: 926px) and (min-height: 926px) {
+    .main-right-area {
+        height: 118vh;
+    }
+}
+
+@media only screen and (max-height: 883px) and (min-height: 883px) {
+    .main-right-area {
+        height: 113vh;
+    }
+}
+
+@media only screen and (max-height: 854px) and (min-height: 854px) {
+    .responsive-text-area {
+        margin-top: 281px;
+    }
+}

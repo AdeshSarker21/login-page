@@ -1,0 +1,364 @@
+@media only screen and (max-width: 1991px) and (min-width: 1400px) {
+    .register-button-area .register-button {
+        display: inline-block;
+        font-size: 26px;
+        font-weight: 500;
+        color: #172439;
+        line-height: 26px;
+    }
+
+    .form-heading .form-heading-text {
+        font-size: 24px;
+        font-weight: 500;
+        color: ##0B192F;
+        line-height: 35px;
+    }
+
+    .form-group .form-input {
+        border: none;
+        background: none;
+        font-size: 20px;
+        font-weight: 400;
+        color: ##0B192F;
+        line-height: 30px;
+        background-color: #fff;
+        padding: 20px 15px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .hide-icon-possition {
+        position: relative;
+    }
+
+    .hide-icon-area {
+        position: absolute;
+        top: 40%;
+        right: 0%;
+    }
+
+    .flexBoxFour {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .submit-button-area .submit-button {
+        border: none;
+        background: none;
+        font-size: 22px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 28px;
+        background-image: linear-gradient(to right, #7075CC, #6A6EC2, #666ABB, #6468B8, #6165B4, #5E61AF, #5C5EAB, #595CA7, #5758A2, #54559E, #505198, #4B4B90, #474789, #464587, #424182, #3F3D7C, #3E3D7B);
+        padding: 20px 15px;
+        width: 100%;
+        border-radius: 35px;
+    }
+
+    .form-group {}
+
+    .form-group .already-account {
+        font-size: 20px;
+        font-weight: 500;
+        color: #172439;
+        line-height: 30px;
+    }
+
+    .forget-password .forget-password-text {
+        font-size: 20px;
+        font-weight: 500;
+        color: #5A5CA8;
+        line-height: 230px;
+    }
+
+    .heading .heading-text {
+        font-size: 20px;
+        font-weight: 500;
+        color: #888E9B;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .main-form-area {
+        padding: 0px 0px;
+    }
+
+    .checkbox-area .checkbox-text {
+        font-size: 13px;
+        font-weight: 400;
+        color: ##0B192F;
+        line-height: 21px;
+    }
+
+    .checkbox-area .checkbox {
+        height: 20px;
+        width: 20px;
+        margin-right: 3px;
+    }
+
+    .submit-button-area .submit-button {
+        font-size: 16px;
+        padding: 10px 6px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .main-left-area {
+        display: none;
+    }
+
+    .main-right-area {
+        background: #E8E8F2;
+        height: 140vh;
+    }
+
+    .responsive-body-img {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 577px;
+        width: 564px;
+    }
+
+    .main-form-area {
+        padding: 0px 50px;
+        background: #fff;
+        border-radius: 30px;
+        margin: 0px 3%;
+        position: absolute;
+        top: 750px;
+        left: 0%;
+        box-shadow: 0px 0px 10px 0px #acacac;
+        width: 94%;
+    }
+
+    .responsive-text-area {
+        display: block;
+    }
+
+    .form-group .form-input {
+        background-color: #E8E8F2;
+        border: 1px solid #A1A1A4;
+    }
+
+    .main-right-area {
+        margin-left: 0;
+    }
+
+    .mediaDisplayNone {
+        display: none;
+    }
+
+    .main-social-media-area {
+        border: none;
+    }
+
+    .main-logo-area {
+        padding: 40px 0px 0px;
+    }
+
+    .responsive-text-area {
+        margin-top: 180px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .main-form-area {
+        padding: 0px 15px;
+        margin: 0px 3%;
+        top: 600px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 450px;
+        width: 440px;
+    }
+
+    .form-group .form-input {
+        font-size: 14px;
+        line-height: 30px;
+        padding: 7px 15px;
+    }
+
+    .form-heading .form-heading-text {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .checkbox-area .checkbox-text {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .form-group .already-account {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .submit-button-area .submit-button {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 8px 10px;
+        width: 100%;
+    }
+
+    .checkbox-area .checkbox {
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .register-button-area .register-button {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .main-form-area {
+        left: 0%;
+    }
+
+    .flexBoxFour {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0px 30px;
+    }
+
+    .main-right-area {
+        height: 94vh;
+    }
+}
+
+@media all and (max-width:577px) {
+    .forget-password {
+        flex-basis: 40%;
+    }
+
+    .checkbox-area {
+        flex-basis: 60%;
+    }
+
+    .main-form-area {
+        padding: 0px 15px;
+        margin: 0px 3%;
+        top: 550px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 400px;
+        width: 390px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .responsive-text-area .responsive-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .forget-password .forget-password-text {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .main-form-area {
+        padding: 0px 15px;
+        margin: 0px 3%;
+        top: 500px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 340px;
+        width: 330px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .flexBoxOne {
+        display: flex;
+        justify-content: space-between;
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    .hide-icon-area {
+        position: absolute;
+        top: 15%;
+        right: 0%;
+    }
+
+    .disNone {
+        display: none;
+    }
+
+    .forget-password .forget-password-text {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .flexBoxFour {
+        justify-content: flex-start;
+        align-items: self-start;
+        padding: 16px 0px 30px;
+        flex-direction: column;
+    }
+
+    .forget-password {
+        flex-basis: 100%;
+        padding-top: 15px;
+    }
+
+    .checkbox-area {
+        flex-basis: 100%;
+    }
+
+    .flexBoxFour {
+        justify-content: center;
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    .submit-button-area {
+        flex-basis: 100%;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .responsive {
+        display: block;
+    }
+
+    .form-group .already-account {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .main-form-area {
+        padding: 0px 15px;
+        margin: 0px 3%;
+        top: 450px;
+    }
+
+    .responsive-body-img .resposive-img {
+        height: 300px;
+        width: 290px;
+    }
+}
+
+@media all and (max-width:370px) {
+    .form-group .already-account {
+        font-size: 12px;
+        line-height: 30px;
+    }
+}
+
+@media all and (max-width:320px) {}
